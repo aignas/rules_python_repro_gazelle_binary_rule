@@ -81,3 +81,10 @@ py_test(
     main = "__test__.py",
     deps = [":bzlmod_build_file_generation"],
 )
+
+py_test(
+    name = "rules_python_repro_gazelle_binary_rule_test",
+    srcs = ["__test__.py"],
+    main = "__test__.py",
+    deps = [":bzlmod_build_file_generation"],
+)
