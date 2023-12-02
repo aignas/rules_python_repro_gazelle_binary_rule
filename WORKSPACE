@@ -18,17 +18,6 @@ http_archive(
     ],
 )
 
-http_archive(
-    name = "aspect_bazel_lib",
-    sha256 = "7489849cffe8d5cf3e6326f5156e7984c7cf6a75a3a0873a5e9b24f4144ab931",
-    strip_prefix = "bazel-lib-1.39.0",
-    url = "https://github.com/aspect-build/bazel-lib/archive/refs/tags/v1.39.0.tar.gz",
-)
-
-load("@aspect_bazel_lib//lib:repositories.bzl", "aspect_bazel_lib_dependencies")
-
-aspect_bazel_lib_dependencies()
-
 #--------
 # Go
 #--------
