@@ -15,8 +15,6 @@
 import os
 import unittest
 
-from other_module.pkg import lib
-
 from python.runfiles import runfiles
 
 

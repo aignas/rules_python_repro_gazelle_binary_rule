@@ -4,6 +4,4 @@ test --test_output=errors --enable_runfiles
 build --enable_runfiles
 startup --windows_enable_symlinks
 
-common --enable_bzlmod
-
 coverage --java_runtime_version=remotejdk_11
